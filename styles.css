@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color: seashell;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+.header-title img {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+li a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.main {
+    padding-top: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission {
+    background-image: url("img/mission-background.webp");
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.mission-text {
+    background-color: black;
+    color: seashell;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.9;;
+}
+
+.tea-header {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.tea-container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 65px;
+
+}
+.tea img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea {
+    text-align: center;
+}
+
+.caption {
+    display: block;
+}
+
+.location-container {
+    background-image: url(img/locations-background.webp);
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    margin: 15px 0px;
+}
+
+.location-header {
+    text-align: center;
+    background-color: transparent;
+}
+
+.location {
+    width: 300px;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color: black;
+    padding: 30px 0px;
+    justify-content: space-around;
+    line-height: 2.5;
+}
+
+.location-container .location {
+    display: inline-flex;
+    align-items: center;
+}
+
+.location-two {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contact {
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+}
